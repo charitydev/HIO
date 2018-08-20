@@ -1,0 +1,305 @@
+ *{
+	padding: 0px;
+	margin: 0px;
+}
+
+html,body {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+background: rgb(251,250,246); 
+background: -moz-linear-gradient(-45deg,  rgba(251,250,246,1) 9%, rgba(212,206,191,1) 74%, rgba(212,206,191,1) 74%, rgba(212,206,191,1) 100%); 
+background: -webkit-linear-gradient(-45deg,  rgba(251,250,246,1) 9%,rgba(212,206,191,1) 74%,rgba(212,206,191,1) 74%,rgba(212,206,191,1) 100%); 
+background: linear-gradient(135deg,  rgba(251,250,246,1) 9%,rgba(212,206,191,1) 74%,rgba(212,206,191,1) 74%,rgba(212,206,191,1) 100%);
+}
+
+.background_Login {
+	background: white;
+	width: 313px;
+	height: 480px;
+	box-shadow: 1px 1px 30px -5px rgba(0,0,0,0.5); 
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+	border-radius: 5px;
+	transition: all 0.7s;
+	transition-delay: 0.3s;
+}
+
+.background_Sign_up {
+	background: white;
+	width: 314px;
+	height: 480px;
+	box-shadow: 1px 1px 30px -5px rgba(0,0,0,0.5); 
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+	border-radius: 5px;
+	transition: all 0.7s;
+	transition-delay: 0.3s;
+}
+
+.background_img {
+	background: url(img/black.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 315px;
+	height: 480px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+	border-radius: 5px;
+	transition: all 0.7s;
+	transition-delay: 0.3s;
+}
+
+.buttons {
+	text-align: center;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	margin-top: 140%;
+	position: absolute;
+}
+
+.Sign_In_btn {
+	width: 157px;
+	height: 40px;
+	border: none;
+	outline: none;
+	background: white;
+	border: 1px solid white;
+	color: black;
+	font-size: 14px;
+	font-family: 'Quicksand', sans-serif;
+	border-bottom-left-radius: 5px;
+	transition: all 0.7s;
+	transition-delay: 0.3s;
+}
+
+.Sign_Up_btn {
+	width: 158px;
+	height: 40px;
+	border: none;
+	outline: none;
+	background: transparent;
+	border: 1px solid white;
+	color: white;
+	font-size: 14px;
+	font-family: 'Quicksand', sans-serif;
+	border-bottom-right-radius: 5px;
+	transition: all 0.7s;
+	transition-delay: 1s;
+}
+
+.Sign_Up_btn:hover {
+	background: white;
+	color: black;
+	transition: all ease-in-out 0.40s;
+}
+
+.background_img .fa-close {
+	color: white;
+	margin-top: 8px;
+	margin-left: 8px;
+	float: left;
+	position: relative;
+	transition: all 0.7s;
+	transition-delay: 0.3s;
+}
+
+.background_img h1 {
+	float: left;
+	color: white;
+	margin-top: 315px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.background_img p {
+	float: left;
+	color: white;
+	margin-left: 23px;
+	margin-right: 23px;
+	font-weight: 80%;
+	font-size: 13px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.background_Login_form {
+	transform: translate(-50%,-50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+}
+
+.background_Login_form .fa-user {
+	color: #191717;
+	margin-left: 200px;
+	margin-top: 10px;
+	position: absolute;
+}
+
+.background_Login_form .fa-lock {
+	color: #191717;
+	margin-left: 200px;
+	margin-top: 10px;
+	position: absolute;
+}
+
+.background_Login_form h1 {
+	color: #191717;
+}
+
+#text_area {
+	background: transparent;
+	width: 220px;
+	height: 40px;
+	border: none;
+	border-bottom: 1px solid #191717;
+	font-family: 'Quicksand', sans-serif;
+	color: #191717;
+	outline: none;
+	font-size: 14px;
+}
+
+::placeholder {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px;
+}
+
+.background_Login_form_btn {
+	width: 220px;
+	height: 35px;
+	background: #191717;
+	border: none;
+	outline: none;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#check_box {
+	font-size: 13px;
+}
+
+.background_Sign_up_form {
+	transform: translate(-50%,-50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+}
+
+.background_Sign_up_form .fa-user {
+	color: #191717;
+	margin-left: 200px;
+	margin-top: 10px;
+	position: absolute;
+}
+
+.background_Sign_up_form .fa-lock {
+	color: #191717;
+	margin-left: 200px;
+	margin-top: 10px;
+	position: absolute;
+}
+
+#background_Sign_up_btn {
+	width: 220px;
+	height: 35px;
+	background: #191717;
+	border: none;
+	outline: none;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.submission .logo {
+	width: 200px;
+	height: 200px;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.submission h1 {
+	transform: translate(-50%,-50%);
+	position: absolute;
+	top: 42%;
+	left: 50%;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 40px;
+}
+
+.submission p {
+	transform: translate(-50%,-50%);
+	position: absolute;
+	top: 48%;
+	left: 50%;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.form__field {
+  position: relative;
+}
+
+.form__field .icon {
+  position: absolute;
+  right: 0.5em;
+  top: 50%;
+  transform: translateY(-50%);
+  size: 16px; 
+  color: black;
+}
+
+.form__input:valid + .icon::after {
+  content: '✓';
+}
+
+.form__input:invalid + .icon::after {
+  content: '';
+}
+
+.welcome {
+	transform: translate(-50% ,-50%);
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	text-align: left;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.welcome p {
+	font-size: 14px;
+}
+
+.welcome_btn {
+	background: black;
+	color: white;
+	border: none;
+	outline: none;
+	width: 100px;
+	height: 35px;
+	font-family: 'Quicksand', sans-serif;
+	border-radius: 5px;
+}
+
+#line {
+	width: 3px;
+	height: 200px;
+	background: black;
+	margin-top: 220px;
+	margin-left: 320px;
+	border-radius: 5px;
+}
+
+
+
+

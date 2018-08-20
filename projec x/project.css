@@ -1,0 +1,234 @@
+video, audio{
+  margin: auto;
+  display: block;
+  width: 70%;
+}
+body{
+ text-align: center;
+  color: black;
+  min-height: 75rem;
+  background: url('img/gg.jpg'),
+              linear-gradient(#fff, transparent 90%),
+              linear-gradient(0deg, #fff, transparent);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+   }
+   
+   h1{ 
+    font-size: 45px;
+    color:white;
+  }
+  h2{
+    font-size: : 55px
+    color:white;
+  }
+  h2,p{
+    font-size:15px;
+    color: black; 
+  }
+  h3{
+    font-size: 30px;
+    color: pink;
+  }
+    h4{
+      /*height: 450px;*/
+      font-size: 40px;
+      color: black;
+    }
+    header span{
+      font-size: 35px;
+      color: white;
+      font-weight: bolder;
+    }
+    /*Class selectors*/
+    .video{
+      height: 20px;
+      width: 30px;
+      
+    }
+  .nav, .header{
+    padding: 0px;
+  }
+  .nav{
+    top: 0;
+    background-color: #59c6ef;
+  }
+
+  .header{
+   /* background-color: white;*/
+    padding:25px; 
+     height:450px;
+   /*background: linear-gradient(#fff, transparent 20%),
+                linear-gradient(0deg, #fff, transparent),
+              url('img/pexels-photo-572056.jpeg') center;
+
+
+    background-position:center;*/
+  }
+  .background{
+    background-image:url('img/bussz.jpg');
+    background-position:center;
+    /*position: fixed;*/
+  }
+  /*navigation bar */
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    top: 0;
+  }
+
+  li{
+    float:left;
+  }
+  li a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover{
+    background-color: #111;
+  }
+  .active{
+    background-color:black;
+    }
+
+/*Pesudo Classes*/
+a:link{
+  color: lightblue;
+}
+
+a:hover{
+  color:forestgreen;
+}
+a:active{
+  color: lightcoral;
+}
+}
+  
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #111;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /*background-color: #f9f9f9*/;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*Id selectors*/
+.team{
+ border-radius: 75px 30px 75px 30px;
+}
+/*contact */
+@media (min-width: 769px){
+  .container{
+    width: 90%;
+    margin: 0 auto;
+  }
+.primary,
+.secondary,
+.third{
+  width: 33%;
+
+}
+.col{
+  float:left; 
+  padding-left: .1em;
+   padding-right: .1em;
+}
+
+/*clearfix*/
+   
+  /*.group::after{
+  content: "";
+  display: table;
+  clear: both;
+  }*/
+}
+h5{
+font-size: 2px;
+}
+ 
+ .social-icon{
+  width           : 40px;
+  height          :  40px;
+  margin          : 0 5px;
+ }
+
+ footer.{
+  font-size       :1.5em;
+  text-align      :center;
+  padding-top      :50px;
+  color           :green;
+}
+
+.picture{
+  float: center;
+  display         : inline;
+  max-width       :350px;
+  margin          : 0;
+  border-radius   :50%;
+
